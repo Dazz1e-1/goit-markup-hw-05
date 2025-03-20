@@ -502,12 +502,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
@@ -579,13 +579,13 @@ img {
 .btn-closes:hover,
 .btn-closes:focus {
   background-color: #404bbf;
-
   border: none;
 }
-.icon-close {
+.icon-closes {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-closes:focus .icon-closes,
 .btn-closes:hover .icon-closes {
   fill: #ffffff;
 }
