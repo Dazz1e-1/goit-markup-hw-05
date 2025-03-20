@@ -332,22 +332,21 @@
               </svg></a></li>
         </ul>
       </div>
+
+
+
+
       <div class="email-footer">
         <p class="text-subscribe">Subscribe</p>
         <form class="wrap-input-btn">
+          <label class="email-input-footer" for="email-input">
+            <input class="email-input-text" placeholder="E-mail" type="email" name="email-input" id="email-input">
+          </label>
           <div class="e-mail-input">
-            <label class="email-input-footer" for="email-input">
-              <input class="email-input-text" pl placeholder="E-mail" type="email" name="email-input" id="email-input">
-            </label>
-          </div>
-          <div>
-            <button class="e-mail-btn">
-              <span>Subscribe</span>
-              <span>
-                <svg class="" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </span>
+            <button class="e-mail-btn">Subscribe
+              <svg class="" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
             </button>
           </div>
         </form>
@@ -361,7 +360,7 @@
   <div class="backdrop is-visible">
     <div class="modal">
       <button class="btn-closes" type="button">
-        <svg class="icon-closes" width="8px" height="8px">
+        <svg class="icon-closes" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg></button>
       <p class="modal-text">Leave your contacts and we will call you back</p>
@@ -370,7 +369,7 @@
           <label class="modal-label" for="user-name">Name</label>
           <div class="modal-icon-wrap">
             <input class="modal-input" type="text" required name="input-name" id="user-name">
-            <svg class="icon-position" width="18px" height="24px">
+            <svg class="icon-position" width="18" height="24">
               <use class="icon-name-position" href="./images/icons.svg#icon-name"></use>
             </svg>
           </div>
@@ -379,7 +378,7 @@
           <label class="modal-label" for="input-phone">Phone</label>
           <div class="modal-icon-wrap">
             <input class="modal-input" required type="tel" name="input-phone" id="input-phone">
-            <svg class="icon-position" width="18px" height="24px">
+            <svg class="icon-position" width="18" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
@@ -388,7 +387,7 @@
           <label class="modal-label" for="input-email">Email</label>
           <div class="modal-icon-wrap">
             <input class="modal-input" required type="email" name="input-email" id="input-email">
-            <svg class="icon-position" width="18px" height="24px">
+            <svg class="icon-position" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
@@ -402,7 +401,7 @@
             id="user-privacy">
           <label class="checkbox-lable" for="user-privacy">
             <span class="checkbox-click">
-              <svg class="icon-click" width="10px" height="8px">
+              <svg class="icon-click" width="10" height="8">
                 <use href="./images/icons.svg#icon-click"></use>
               </svg>
             </span>
@@ -412,9 +411,7 @@
         </div>
         <button class="btn-send">Send</button>
       </form>
-
     </div>
-
   </div>
 
 </body>
