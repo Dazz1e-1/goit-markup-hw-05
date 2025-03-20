@@ -637,8 +637,6 @@ input {
 }
 
 .modal-input-wrapper {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 8px;
   font-weight: 400;
   font-size: 12px;
